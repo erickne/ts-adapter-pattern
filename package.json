@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "jest --silent",
     "start": "tsnd --respawn --transpile-only src/index.ts"
   },
   "dependencies": {},
